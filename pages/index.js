@@ -20,7 +20,7 @@ export const getStaticProps = async () => {
         id: m._id.toString(),
       })),
     },
-    // revalidate: 10,
+    revalidate: 1,
   };
 };
 
